@@ -18,5 +18,5 @@ from django.urls import path
 from reply.views import ReplyView
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('reply/',ReplyView.as_view()),
+    path('api/reply/',ReplyView.as_view()),
 ]

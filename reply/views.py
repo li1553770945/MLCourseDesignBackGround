@@ -12,7 +12,7 @@ class CsrfExemptSessionAuthentication(SessionAuthentication):
     def enforce_csrf(self, request):
         return
 def fun(audio_file):
-    return "a","b","c"
+    return "a","b","14424.wav"
 
 
 class ReplyView(APIView):
